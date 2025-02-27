@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+            }
+            .container{
+                
+                height: 100vh;
+                width: 100%;
+                background-image: url('./image//beach1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+
+            .nave{
+                background-color: black;
+                color: aquamarine;
+                font-weight: bold;
+                width: 100%;
+                height: 10vh;
+                opacity: 0.7;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+               
+
+            }
+            .logo{
+                width: 25%;
+                font-size: 25px;
+                text-align: center;
+            }
+            .menu{
+                width: 30%;
+            
+            }
+            .menu a{
+                color: wheat;
+                text-decoration: none;
+                font-weight: bold;
+                display: inline-block;
+                padding-left: 25px;
+                text-transform: inherit;
+            }
+
+            .menu a:hover{
+                color: rgb(245, 54, 245);
+            }
+            .menu a:first-child{
+                color: chartreuse;
+            }
+            .footer{
+                position: fixed;
+                bottom: 0;
+                background-color: black;
+                opacity: 0.7;
+                width: 100%;
+                text-align: center;
+                padding: 6px 0;
+            }
+
+            .footer p{
+                color: orangered;
+                font-weight: bold;
+            }
+
+.input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+   
+}
+
+.input[type=submit] {
+  background-color: cadetblue;
+  color: black;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.leg{font-size: 25px;color: blue;}
+
+            
+
+
+           
+            
+            
+
+
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="nave">
+                <div class="logo">
+                    <p>Visit  Hambantota</p>
+                </div>
+                    <div class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="Top Destination2.html">Top Destination</a>
+                        <a href="Visit Us.html">Visit Us</a>
+                        <a href="Contact Us.html">Contact Us</a>
+                    </div>
+                
+            </div>
+
+            <br><br><br><br><br>
+           <!-- <h1>
+                <b>
+                    <u>
+                        Enter Your Details
+                    </u>
+                </b>
+            </h1>-->
+
+            <form action="./index.html" method="get">
+                <fieldset style="border: 2px solid black;">
+                    <legend class="leg"><b>Contact Us</b></legend>
+                <label for="name"><b>Name:</b></label>
+                <input type="text" id="name">
+                <br><br>
+                
+                <label for="age"><b>Age:</b></label>
+                <input type="number" id="age">
+                <br><br>
+
+                <label><b>Country</b></label>
+                <select>
+                    <option>Australia</option>
+                    <option>Albaniya</option>
+                    <option>Argentina</option>
+                    <option>Austriya</option>
+                    <option>Belgium</option>
+                    <option>Bahrain</option>
+                    <option>Belize</option>
+                    <option>Belarus</option>
+                    <option>Canada</option>
+                    <option>Cameroon</option>
+                    <option>Chilie</option>
+                    <option>China</option>
+                    <option>Cuba</option>
+                    <option>Denmark</option>
+                    <option>Egypt</option>
+                    <option>El Salvador</option>
+                    <option>Finland</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                    <option>Greece</option>
+                    <option>India</option>
+                    <option>Italy</option>
+                    <option>Iraq</option>
+                    <option>Japan</option>
+                    <option>Jordan</option>
+                    <option>South Korea</option>
+                    <option>North Korea</option>
+                    <option>Mexico</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                </select>
+                    <br><br>
+
+                   <label><u> <b>Gender:</b></u></label><br>
+                    <input type="radio" value="male" name="gender">Male
+                    <input type="radio" value="female" name="gender">Female
+                    <input type="radio" value="other" name="other">Other
+                    <br><br>
+
+                    <label><u><b>Selection:</b></label>
+                    <br>
+                    <input type="checkbox">Historical Places<br>
+                    <input type="checkbox">Environment Places<br>
+                    <input type="checkbox">Religious Places<br>
+
+                    <br><br>
+
+                  <!--- <label for="message"><b>Message:</b></label>
+                <input type="text" id="message">-->
+
+                <label for="subject">Subject:</label>
+                <textarea id="subject" name="subject" placeholder="Write comments.." style="height:100px"></textarea>
+
+
+
+
+
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+
+                        
+                    </option>
+                </select>
+
+            </form>
+
+
+            <div class="footer">
+                <p>
+                    Travel In Hambantota&copy;2022
+                </p>
+            </div>
+            
+            
+            
+            
+        </div>
+
+    </body>
+</html>
